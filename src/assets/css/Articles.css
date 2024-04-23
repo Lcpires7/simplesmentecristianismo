@@ -1,0 +1,14 @@
+section {
+    height: calc(100vh - 70px);
+    background: #7f91a2;
+    padding: 1rem;
+}
+
+section ul li  a{
+    display: inline-block;
+    width: 100%;
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: 150px;
+}
