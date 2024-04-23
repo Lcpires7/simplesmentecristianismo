@@ -1,0 +1,27 @@
+body {
+    background-color: #7f91a1 !important;
+    padding: 0 1rem;
+    padding-top: 70px;
+}
+ div {
+    background-color: white;
+    min-height: 500px;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    border-radius: .30rem;
+
+}
+
+ul li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color:#f7c56f;
+    border-radius: .3rem;
+    margin-bottom: 1.5rem;
+    margin: 1rem 0;
+    /* border: 1px solid #787166; */
+    font-family: "Open Sans", sans-serif;
+
+}
