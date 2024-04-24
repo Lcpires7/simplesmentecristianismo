@@ -7,11 +7,10 @@ import '../../assets/css/Articles.css'
 const Article = () => {
     const category = useSelector((state) => state.currentCategoryActiveSlice)
 
-
+    // Não funcionou
     // function getImageUrl(name) {
-    //     const src = new URL(`./img/${name}.jpg`, import.meta.url).href
-    //     return src
-    // }
+    //     return new URL(`./img//${name}.jpg`, import.meta.url).href
+    //   }
 
     return (
         <>
@@ -27,7 +26,9 @@ const Article = () => {
                                 <>   
                                     <li key={item.title.split(' ')[2]}>
                                         <a> 
-                                            <img src={`http://localhost:5174/simplesmentecristianismo/img/${item.urlImg}`} />
+                                            <figure>
+                                                <img src={`http://localhost:5174/simplesmentecristianismo/img/${item.urlImg}`} />
+                                            </figure>
                                             <h3>{item.title}</h3>
                                         </a>
                                     </li>

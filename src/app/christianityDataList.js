@@ -17,7 +17,7 @@ const articles = [
         title: "Sobre a santa ceia",
         content: "",
         category: "christianity",
-        urlImg: 'batismo.jpg',
+        urlImg: 'santaCeia.jpg',
         tags: " "
     }
 ]
