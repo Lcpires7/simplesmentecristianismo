@@ -8,7 +8,7 @@ const Home = () => {
         <Header/>
         <div>
             <ul>
-                <li><a>Sobre o cristianismo</a></li>
+                <li><a href="simplesmentecristianismo/sobreocristianismo">Sobre o cristianismo</a></li>
                 <li><a>Sobre a biblía</a></li>
                 <li><a>Indicações de livros</a></li>
             </ul>
