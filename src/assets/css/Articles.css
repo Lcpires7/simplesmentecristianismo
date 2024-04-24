@@ -11,4 +11,9 @@ section ul li  a{
     padding: 1rem;
     margin-bottom: 1rem;
     height: 150px;
+    overflow: hidden;
+}
+
+li a img {
+    width: 100%;
 }
