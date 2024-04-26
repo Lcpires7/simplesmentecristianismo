@@ -1,4 +1,4 @@
-body {
+main {
     background-color: #7f91a1 !important;
     padding: 0 1rem;
     padding-top: 70px;
@@ -12,7 +12,7 @@ body {
 
 }
 
-ul li a {
+div ul li a.btn {
     display: inline-block;
     width: 100%;
     text-align: center;

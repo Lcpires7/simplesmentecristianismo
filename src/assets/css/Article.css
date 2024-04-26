@@ -1,0 +1,20 @@
+main#article {
+    background: white !important;
+    padding: 0;
+    padding-top: 70px;
+}
+
+section {
+    background: white;
+}
+main#article h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+main#article article p, ul {
+    margin-bottom: 2rem;
+}

@@ -6,11 +6,12 @@ import './index.css'
 import { store } from './app/store'
 import { Provider } from 'react-redux'
 import Home from './features/home/Home'
-import Article from './features/Artigos/Artigos'
+import Articles from './features/Articles/Artigos'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Article from './features/Artigo/Article'
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/simplesmentecristianismo/sobreocristianismo',
-    element: <Article/>
+    element: <Articles/>
+  },
+  {
+    path: '/simplesmentecristianismo/sobreocristianismo/1',
+    element: <Article />
   }
 ]);
 

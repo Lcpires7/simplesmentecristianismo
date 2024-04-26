@@ -6,13 +6,17 @@ const Home = () => {
     return (
         <>
         <Header/>
-        <div>
-            <ul>
-                <li><a href="simplesmentecristianismo/sobreocristianismo">Sobre o cristianismo</a></li>
-                <li><a>Sobre a biblía</a></li>
-                <li><a>Indicações de livros</a></li>
-            </ul>
-        </div>
+            <main>
+                <section>
+                <div>
+                <ul>
+                    <li><a className="btn" href="simplesmentecristianismo/sobreocristianismo">Sobre o cristianismo</a></li>
+                    <li><a className="btn">Sobre a biblía</a></li>
+                    <li><a className="btn">Indicações de livros</a></li>
+                </ul>
+                </div>
+                </section>
+            </main>
         </>
     )
 }

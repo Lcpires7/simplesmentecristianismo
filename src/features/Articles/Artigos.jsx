@@ -4,7 +4,7 @@ import Header from "../../componentes/gerais/Header";
 import articles from "../../app/christianityDataList";
 import '../../assets/css/Articles.css'
 
-const Article = () => {
+const Articles = () => {
     const category = useSelector((state) => state.currentCategoryActiveSlice)
 
     // Não funcionou
@@ -16,7 +16,7 @@ const Article = () => {
         <>
             <Header/>
             <main>
-                <section>
+                <section id="articles">
                     <ul key='teste'>
                         {articles.map(item => {  
                             const imgUrl = new URL( import.meta.url).href
@@ -25,9 +25,9 @@ const Article = () => {
                             return (
                                 <>   
                                     <li key={item.title.split(' ')[2]}>
-                                        <a> 
+                                        <a className="card" href="/simplesmentecristianismo/sobreocristianismo/1"> 
                                             <figure>
-                                                <img src={`http://localhost:5174/simplesmentecristianismo/img/${item.urlImg}`} />
+                                                <img src={`${item.urlImg}`} />
                                             </figure>
                                             <h3>{item.title}</h3>
                                         </a>
@@ -42,4 +42,4 @@ const Article = () => {
     )
 }
 
-export default Article
+export default Articles
